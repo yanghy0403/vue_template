@@ -15,6 +15,10 @@ axios.defaults.baseURL = process.env.VUE_APP_URL;
 import qs from 'qs'
 Vue.prototype.qs = qs;
 
+//echarts
+import echarts from 'echarts';
+Vue.prototype.echarts = echarts;
+
 
 //适配
 import './utils/flexible.js'

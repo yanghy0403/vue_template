@@ -1,0 +1,51 @@
+.wrap{
+    background: #f3f4f9;
+    .main{
+        position: relative;
+        background: #f3f4f9;
+        .banner{
+            height: 320px;
+            background: url(../../assets/img/learn_center.png) no-repeat;
+            background-size: cover;
+        }
+        .main_content{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            .content{
+                width: 68%;
+                margin: 0 auto;
+                margin-bottom: 100px;
+               >h2{
+                     font-size: 40px;
+                       font-family: PingFangSC, PingFangSC-Semibold;
+                       font-weight: 600;
+                       text-align: left;
+                       color: #ffffff;
+                       line-height: 50px;
+                       margin-top: 30px;
+                       margin-bottom: 60px;
+                }
+              
+
+            }
+        }
+    }
+}
+.location{
+    font-size: 12px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    line-height: 17px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    label{
+        cursor: pointer;
+    }
+    span{
+        padding: 0 10px;
+    }
+}
